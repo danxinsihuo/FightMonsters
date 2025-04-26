@@ -38,6 +38,10 @@ Game::~Game()
 	delete Ball;
 	delete Particles;
 	delete Effects;
+	ma_sound_uninit(&bgmSound);
+	ma_sound_uninit(&solidBlockSound);
+	ma_sound_uninit(&softBlockSound);
+	ma_engine_uninit(&engine);
 }
 
 void Game::Init()

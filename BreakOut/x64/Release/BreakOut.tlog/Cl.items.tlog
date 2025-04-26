@@ -1,0 +1,15 @@
+D:\VC Programs\LearnOpenGL\BreakOut\src\BallObject.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\BallObject.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\BreakOut.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\BreakOut.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\Character.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\Character.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\game.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\game.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\GameLevel.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\GameLevel.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\GameObject.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\GameObject.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\ParticleGenerator.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\ParticleGenerator.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\PostProcessor.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\PostProcessor.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\resource_manager.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\resource_manager.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\shader.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\shader.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\SpriteRenderer.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\SpriteRenderer.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\texture.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\texture.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\vender\glm\detail\glm.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\glm.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\vender\glm\glm.cppm;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\glm.obj
+D:\VC Programs\LearnOpenGL\BreakOut\src\vender\stb_image\stb_image.cpp;D:\VC Programs\LearnOpenGL\BreakOut\BreakOut\x64\Release\stb_image.obj
