@@ -1646,15 +1646,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="res\music\bleep.mp3" />
-    <Media Include="res\music\bleep.wav">
-      <Filter>资源文件</Filter>
-    </Media>
-    <Media Include="res\music\breakout.mp3" />
     <Media Include="res\music\powerup.wav">
-      <Filter>资源文件</Filter>
-    </Media>
-    <Media Include="res\music\solid.wav">
       <Filter>资源文件</Filter>
     </Media>
     <Media Include="res\music\bgm.mp3" />

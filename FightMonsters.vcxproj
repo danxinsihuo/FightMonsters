@@ -707,13 +707,9 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="res\music\bgm.mp3" />
-    <Media Include="res\music\bleep.mp3" />
-    <Media Include="res\music\bleep.wav" />
-    <Media Include="res\music\breakout.mp3" />
     <Media Include="res\music\collisionBlock.mp3" />
     <Media Include="res\music\collisionNormal.mp3" />
     <Media Include="res\music\powerup.wav" />
-    <Media Include="res\music\solid.wav" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Dependencies\AUDIO\lib\miniaudio.lib" />

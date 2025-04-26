@@ -288,7 +288,6 @@ void Game::DoCollisions()
 					if(ma_sound_at_end(&solidBlockSound)){
 						ma_sound_seek_to_pcm_frame(&solidBlockSound,0);
 					}
-					//ma_engine_play_sound(&engine,"res/music/collisionBlock.mp3",NULL);
 				}
 				// 碰撞处理
 				Direction dir = std::get<1>(collision);

@@ -58,31 +58,6 @@ int main(int argc,char* argv[])
 	// Start Game within Menu State
 	Breakout.State = GAME_ACTIVE;
 
-	float positions[] = {
-		-1.0f,1.0f,0.0,1.0f,
-		-1.0f,-1.0f,0.0f,0.0f,
-		1.0f,-1.0f,1.0f,0.0f,
-
-		1.0f,-1.0f,1.0f,0.0f,
-		1.0f,1.0f,1.0f,1.0f,
-		-1.0f,1.0f,0.0f,1.0f
-	};
-	// vertex
-	unsigned int vao,vbo;
-	glGenVertexArrays(1,&vao);
-	glBindVertexArray(vao);
-
-	glGenBuffers(1,&vbo);
-	glBindBuffer(GL_ARRAY_BUFFER,vbo);
-	glBufferData(GL_ARRAY_BUFFER,sizeof(positions),&positions,GL_STATIC_DRAW);
-
-	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(0,2,GL_FLOAT,GL_FALSE,4*sizeof(float),(void *)0);
-	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(1,2,GL_FLOAT,GL_FALSE,4*sizeof(float),(void *)(2*sizeof(float)));
-	glBindVertexArray(0);
-
-
 	while(!glfwWindowShouldClose(window))
 	{
 		// Calculate delta time
