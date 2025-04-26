@@ -28,14 +28,22 @@
 | **C++** | 核心逻辑编写 |
 | **OpenGL 3.3** | 图形渲染 |
 | **GLFW** | 窗口管理与输入处理 |
-| **GLAD** | OpenGL 函数加载 |
-| **SOIL / stb_image** | 图片资源加载 |
-| **OpenAL / irrKlang** | （可选）音频播放 |
+| **GLEF** | OpenGL 函数加载 |
+| **stb_image** | 图片资源加载 |
+| **miniaudio** | 音频播放 |
 
 
 ## 🧩 项目结构
 
-FightMonster/ ├── src/ # 源代码（游戏逻辑、渲染、碰撞检测） ├── res/ # 游戏资源（纹理、声音、关卡数据） ├── Dependencies/ # 依赖库及头文件 ├── x64/ # 可执行文件 └── README.md
+```
+Breakout/
+├── src/             # 源代码（游戏逻辑、渲染、碰撞检测）
+├── res/             # 游戏资源（纹理、声音、关卡数据）
+├── Dependencies/    # 依赖库及头文件
+├── x64/             # 可执行文件
+└── README.md
+```
+
 
 ## 🧹 如何运行
 
