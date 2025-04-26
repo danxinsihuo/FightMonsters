@@ -16,7 +16,7 @@ const GLuint SCREEN_WIDTH = 1000;
 // The height of the screen
 const GLuint SCREEN_HEIGHT = 800;
 
-Game Breakout(SCREEN_WIDTH,SCREEN_HEIGHT);
+Game FightMonsters(SCREEN_WIDTH,SCREEN_HEIGHT);
 
 int main(int argc,char* argv[])
 {
@@ -49,14 +49,14 @@ int main(int argc,char* argv[])
 
 
 	// Initialize game
-	Breakout.Init();
+	FightMonsters.Init();
 
 	// DeltaTime variables
 	GLfloat deltaTime = 0.0f;
 	GLfloat lastFrame = 0.0f;
 
 	// Start Game within Menu State
-	Breakout.State = GAME_ACTIVE;
+	FightMonsters.State = GAME_ACTIVE;
 
 	while(!glfwWindowShouldClose(window))
 	{
@@ -68,15 +68,15 @@ int main(int argc,char* argv[])
 
 		//deltaTime = 0.001f;
 		// Manage user input
-		Breakout.ProcessInput(deltaTime);
+		FightMonsters.ProcessInput(deltaTime);
 
 		// Update Game state
-		Breakout.Update(deltaTime);
+		FightMonsters.Update(deltaTime);
 
 		// Render
 		glClearColor(0.0f,0.0f,0.0f,1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
-		Breakout.Render();
+		FightMonsters.Render();
 
 		glfwSwapBuffers(window);
 	}
@@ -96,8 +96,8 @@ void key_callback(GLFWwindow* window,int key,int scancode,int action,int mode)
 	if(key >= 0 && key < 1024)
 	{
 		if(action == GLFW_PRESS)
-			Breakout.Keys[key] = GL_TRUE;
+			FightMonsters.Keys[key] = GL_TRUE;
 		else if(action == GLFW_RELEASE)
-			Breakout.Keys[key] = GL_FALSE;
+			FightMonsters.Keys[key] = GL_FALSE;
 	}
 }
