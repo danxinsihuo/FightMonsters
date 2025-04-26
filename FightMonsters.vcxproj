@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{65b06943-e1df-431b-81b4-e4d421dbc6f0}</ProjectGuid>
-    <RootNamespace>BreakOut</RootNamespace>
+    <RootNamespace>FightMonsters</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -672,7 +672,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BallObject.cpp" />
-    <ClCompile Include="src\BreakOut.cpp" />
+    <ClCompile Include="src\FightMonsters.cpp" />
     <ClCompile Include="src\Character.cpp" />
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\GameLevel.cpp" />
